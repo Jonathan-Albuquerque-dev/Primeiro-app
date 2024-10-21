@@ -5,9 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Link href="(tabs)">Logar</Link>
-      <Link href="cadastro">Cadastrar</Link>
-      <StatusBar style="auto" />
+      <Text>Cadastro</Text>
     </View>
   );
 }
